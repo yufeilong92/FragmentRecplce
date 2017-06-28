@@ -56,7 +56,6 @@ public class fragmentwo extends Fragment implements View.OnClickListener {
     private void initView(View view) {
         mBtnTwoBack = (Button) view.findViewById(R.id.btn_two_back);
         mBtnTwonExt = (Button) view.findViewById(R.id.btn_twon_ext);
-
         mBtnTwoBack.setOnClickListener(this);
         mBtnTwonExt.setOnClickListener(this);
     }

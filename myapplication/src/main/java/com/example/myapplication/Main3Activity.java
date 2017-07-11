@@ -5,8 +5,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Chronometer;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.QuickContactBadge;
 
 import java.util.ArrayList;
 
@@ -18,6 +20,9 @@ public class Main3Activity extends AppCompatActivity implements BlankFragments.O
     private ArrayList<String> strings;
     private ArrayAdapter<String> adapter;
     private ArrayAdapter<String> adapter1;
+    private Chronometer mCho;
+    private QuickContactBadge mEditQuery;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +56,16 @@ public class Main3Activity extends AppCompatActivity implements BlankFragments.O
             }
         });*/
 
+        mCho = (Chronometer) findViewById(R.id.cho);
+        mCho.setBase(200);
+        mCho.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener() {
+            @Override
+            public void onChronometerTick(Chronometer chronometer) {
+
+            }
+        });
+        mEditQuery = (QuickContactBadge) findViewById(R.id.edit_query);
+        mEditQuery.assignContactFromPhone("122364562545",true);
     }
 
     private void submit() {

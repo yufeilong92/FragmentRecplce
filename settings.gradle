@@ -1,1 +1,1 @@
-include ':app', ':fragmentreplce', ':myapplication'
+include ':app', ':fragmentreplce', ':myapplication', ':myapplication2', ':myapplication3', ':xml', ':myapplication4'

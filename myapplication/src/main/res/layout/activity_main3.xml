@@ -17,6 +17,15 @@
         android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />-->
+    <Chronometer
+        android:id="@+id/cho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <QuickContactBadge
+        android:id="@+id/edit_query"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <fragment
         android:id="@+id/fla_back"
         android:name="com.example.myapplication.BlankFragments"
@@ -27,4 +36,5 @@
         android:name="com.example.myapplication.TOdoFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
 </LinearLayout>

@@ -11,6 +11,10 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/fragmentreplce" />
             <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/myapplication2" />
+            <option value="$PROJECT_DIR$/myapplication3" />
+            <option value="$PROJECT_DIR$/myapplication4" />
+            <option value="$PROJECT_DIR$/xml" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
